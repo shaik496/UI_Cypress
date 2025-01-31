@@ -2,5 +2,5 @@ import testData from '/Users/meeravalishaik/Desktop/Shaik/WorkSpace/Active/UI_Cy
 Cypress.Commands.add("LaunchURL", () => {
     cy.visit(testData.testu);
     cy.visit(testData.testu);
-    cy.title().should('eq', 'Register: Mercury Tours');
+    cy.title().should('eq', 'Register: Mercury Tours122');
   });
